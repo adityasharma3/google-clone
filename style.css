@@ -1,0 +1,84 @@
+html {
+    font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: block;
+    padding: 1px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    padding: 1%;
+}
+
+.google-logo {
+    margin-top: 300px;
+    margin-left: 135px;
+    width: auto0;
+}
+
+.search-bar {
+    color: rgb(0, 0, 0);
+    border-color: #ffffff;
+    border-style: solid;
+    height: 35px;
+    width: 490px;
+    position : relative;
+    display: flex;
+    margin-left : auto;
+    margin-right : auto;
+    align-items: center;
+}
+
+#search-bar {
+    background-image: url(./images/google-search-svg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position-x: left;
+    text-indent: 70px;
+}
+
+.button-below-search {
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.button-below-search input {
+    background-color: #F8F9FA;
+    border-color: #F8F9FA;
+    word-spacing: 1px;
+}
+
+.button-below-search li{
+    display: inline;
+    padding: 5px;
+}
+
+input .submit-btns :hover {
+    background-color: black;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color:#F2F2F2;
+}
+
+a {
+    color: #777676;
+    text-decoration: none;  
+}
+
+footer li{
+    display: inline;
+    padding: 30px;
+}
