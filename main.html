@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google-clone</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="./script.js"></script>
 </head>
 <header>
@@ -21,13 +22,13 @@
     <center>
         <img class = "google-logo" src="./images/googlelogo_color_272x92dp.png" alt="google-logo" srcset="./images/googlelogo_color_272x92dp.png">
         <br/><br/>
-        <input class = "search-bar" id="search-bar" type="text" placeholder="">
+        <input class = "search-bar" id="search-box" placeholder="search" value = "search" type="text">
 
         <div class="button-below-search">
             <ul style="padding-left: 0;">
                 <div class="submit-btns">
-                    <li><input id = "search-btn" type="submit" value="Google Search"></li>
-                    <li><input type = "submit" value="I'm Feeling Lucky"></button></li>
+                    <li><input id = "searchBtn" type="submit" value="Google Search"></li>
+                    <li><input id = "feeling_lucky_key" type = "submit" value = "I'm feeling lucky"></li>
                 </div>
             </ul>
         </div>

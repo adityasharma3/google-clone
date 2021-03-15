@@ -21,7 +21,7 @@ nav li {
 .google-logo {
     margin-top: 300px;
     margin-left: 135px;
-    width: auto0;
+    width: auto;
 }
 
 .search-bar {
@@ -51,7 +51,7 @@ nav li {
     margin-right : auto;
 }
 
-.button-below-search input {
+.button-below-search button {
     background-color: #F8F9FA;
     border-color: #F8F9FA;
     word-spacing: 1px;

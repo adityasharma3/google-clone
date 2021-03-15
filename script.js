@@ -1,13 +1,22 @@
-console.log("UP");
+console.log("Connected!");
 
-function retrieve_query() {
-    var getQuery = document.getElementById("search-bar").value;
-}
+$(document).ready(function () {
+    var element = (document.getElementById("search-box").value);
+    var str;
 
-function google_query() {
+    if (element == null || element == '') {
+        str = "search";
+    } else {
+        str = element;
+    }
 
-}
+    $(searchBtn).click(function() {
+        var url = "http://www.google.com/search?q=" + str;
+        window.open(url , "google");
+    });
 
-function onClickSubmit() {
-    
-}
+    $(feeling_lucky_key).click(function() {
+        var url = "http://www.google.com/search?q=" + str + "btnI";
+        window.open(url , google);
+    });
+});
